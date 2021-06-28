@@ -1,0 +1,155 @@
+- O que é lógica?
+    
+    A lógica de programação diz respeito à forma como a pessoa que trabalha com programação escreve uma solução ou um algoritmo 
+    utilizando as linguagens de programação existentes no mercado.
+
+    De um modo geral, é como se ela fosse um passo a passo para a execução de uma tarefa (algoritmo), usando para isso uma língua 
+    (linguagem de programação) a fim de codificar como ela deve ser realizada. Essa lógica deve ser feita por quem trabalha com 
+    programação, considerando pontos importantes que abordaremos ao longo deste conteúdo.
+
+    As regras definidas pela lógica de programação permitem que, por meio de um código escrito, uma máquina consiga converter essas 
+    instruções em informação. Uma vez convertida, essa informação poderá ser compreendida por pessoas ou outros dispositivos, por 
+    meio das regras estabelecidas por quem desenhou a ideia.
+
+    Para conseguir implementar a programação e garantir um fluxo de informação feito de forma lógica, é importante que o sistema 
+    contenha as seguintes ferramentas:
+
+        º estruturas de controle: são elas que definem se uma ação pode ou não ocorrer internamente e quais são os parâmetros que 
+        definem sua execução ou interrupção;
+        º laço de repetição: essa ferramenta é justamente a determinação da condição para que uma ação seja executada ou interrompida, 
+        por exemplo: “ande até chegar à Avenida Paulista”;
+        º armazenamento de dados: toda ferramenta precisa de dados que alimentam o sistema e que permitem que o algoritmo trabalhe. 
+        Diz respeito aos vídeos, imagens, arquivos de texto, memórias de dispositivos eletrônicos, entre outros;
+        º tipos de dados: é a categorização das informações internas, mostrando como elas devem ser processadas — por exemplo, de 
+        que forma se apresentam o texto, números, frações etc.;
+        º variáveis: para quem não está habituado com termos matemáticos, as variáveis são semelhantes a termos matemáticos (por 
+        exemplo, “x = 5” ou “x = y”). Auxiliam no armazenamento de valores que são trabalhados durante a execução dos algoritmos.
+
+    A lógica de programação precisa ser nítida e eficiente para evitar ambiguidades: lembre-se de que as máquinas não apresentam 
+    subjetividade. Então, caso você não faça as ações da maneira adequada, pode gerar algumas questões problemáticas. Vamos a um 
+    exemplo prático que pode ser aplicado na vida cotidiana para compreender as implicações de ambiguidades:
+
+        º você pede para que a pessoa que mora na sua casa vá ao mercado e compre 1kg de carne. Caso tenha limões, também pede para 
+        que traga seis;
+        º a pessoa retorna para casa com 6kg de carne, porque tinham limões no mercado.
+
+    Apesar de ser uma situação anedótica, algo semelhante é passível de ocorrer durante as ações de programação. Caso você não 
+    delimite bem a lógica a ser aplicada, o sistema poderá oferecer uma resposta diferente do esperado ao ser executado.
+
+- Metacognição
+    Metacognição nada mais é " Pensar como você pensa ".
+
+- Abstração
+    É a habilidade de concentrar nos aspectos essenciais de um contexto qualquer, ignorando características menos importantes ou acidentais.
+
+- O que são algoritmos e Pseudocódigo
+    º Algoritmo = É uma sequência de passos que resolve um problema.
+    Ex:
+        Inicio-Dia
+            Acordei
+            Levantei da Cama
+            Troquei de roupa
+            Escovei os dentes
+            Fui a padaria
+            Tomei Café
+            Escovei os dentes
+            Fui ao trabalhado
+            ...
+        Fim-Dia
+    
+    º Pseudocódigo = É uma forma genérica de escrever um algoritmo, utilizando uma linguagem simples (nativa, ou seja, em português a quem escreve,
+    de forma a ser entendida por qualquer pessoa.)
+
+- Fluxograma, Variaveis e Constantes
+    º Fluxograma = É uma ferramenta utilizada para representar graficamente o algoritmo, isto é, a sequência lógica e coerente do fluxo de dados.
+    Uma outra definição de Fluxograma é que ele é um tipo de diagrama e pode ser entendido como uma representação esquemática de um processo. Podemos
+    entendê-lo, na prática, como a documentação dos passos necessários para a execução de um processo qualquer.
+
+    º Variáveis = uma variável é um objeto (uma posição, frequentemente localizada na memória) capaz de reter e representar um valor ou expressão.
+    Ex:
+        a = 100
+        a = 'Diego'
+    
+    Variável pode ser definida também como um espaço na memória do computador destinado a um dado que é alterado durante a execução do algoritmo.
+
+    º Constante = São valores imutáveis e não são alterados durante a vida últi do programa.
+    Ex:
+        pi = 3,14
+
+- Tomadas de decisões e expressões
+    º Expressões Aritméticas = São expressões que utilizam operadores aritméticos e funções aritméticas envolvendo constantes e variáveis.
+    Ex: 
+        50 + 50
+        total + 50
+
+    Operadores aritméticos
+        Soma                    + 
+        Subtração               -
+        Multiplicação           *
+        Divisão                 /
+        Potenciação             ^
+        Porcentagem             %
+
+    º Expressões Literais = São execução com constantes e/ou variáveis que tem como resultado valores literais. Iremos utilizar as expressões literais
+    na atribuição de valor para uma variável ou constante.
+    Ex:
+        nome = "Diego Henrique"
+        nome <-- "Diego Henrique"
+        media = (n1+n2+n3+n4)/4
+
+    º Operadores Relacionais = São expressões composta por outras expressões ou variáveis numéricas com operadores relacionais.
+    As expressões relacionais retornam valores lógicos (verdadeiro / falso)
+
+        Simbolo     Nome do Operador        Exemplo     Significado
+        >           Maior que               x > y       x é maior que y
+        >=          Maior ou Igual          x >= y      x é maior ou igual a y
+        <           Menor que               x < y       x é menor que y
+        <=          Menor ou Igual          x <= y      x é menor ou igual a y
+        ==          Igualdade               x == y      x é igual a y
+        !=          Diferente de            x != y      x é diferente de y
+
+    º Tomadas de decisão = Quando escrevemos programas, geralmente ocorre a necessidade de decidir o que fazer dependendo de
+    alguma condição encontrada durante a execução.
+
+- Concatenação
+    Concatenação é um termo usado em computação para designar a operacção de unir o conteúdo de duas string*.
+    (string é uma sequência de caracteres)
+    Ex:
+        nome = "Diego"
+        sobrenome = "Henrique"
+        ("Olá seu nome e sobrenome é" &nome "e seu sobrenome é" &sobrenome)
+
+- Introdução ao Portugol
+
+    - Estrutura de Repetição = Dentro da lógica de programação é uma estrutura que permite executar mais de uma vez o mesmo comando ou conjunto de comandos, de acordo com uma condição ou com um condutor.
+
+- O que são linguagens de programação?
+
+    - Linguagem de Programação é uma linguagem escrita e formal que especifica um conjunto de instruções e regras usadas para gerar programas (software). Um software pode ser desenvolvido para rodar em um computador, dispositivo móvel ou em qualquer equipamento que permita sua execução. Alto Nível = Essas são aquelas cuja sintaxe se aproxima mais da nossa linguagem e se distanciam mais da linguagem de máquina. Baixo Nível = É aquela que se aproxima mais da linguagem de máquina. Essas são as que você precisa ter o conhecimento direto da arquitetura do computador para fazer alguma coisa. Compiladas = É uma linguagem de programação em que o código fonte, é executado diretamente pelo sistema operacional ou pelo processador, após ser traduzido por meio de um processo chamado compilação. Interpretadas = É uma linguagem de programação em que o código fonte é executado por um programa de computador chamado interpretador, que em seguida é executado pelo sistema operacional ou processador.
+
+- O que é Portugol?
+
+    - Portugol é uma pseudolinguagem que permite ao leitor desenvolver algoritmos estruturados em portugês de forma simples e intuitiva, independentemente de linguagem de programação. A Definição é que é uma pseudolinguagem que permite ao programador pensar no problema em si e não no equipamento que irá executar o algoritmo. EX:
+
+    Programa {
+
+    Função inicio() { real nota1, nota2, nota3, nota4, media cadeia aluno
+
+    escreva(“Digite o nome do aluno:”) leia(aluno) escreva(“Digite a nota 1:”) leia(nota1) escreva(“Digite a nota 2:”) leia(nota2) escreva(“Digite a nota 3:”) leia(nota3) escreva(“Digite a nota 4:”) leia(nota4) escreva(“Digite a nota 5:”) leia(nota5) media = (nota1+nota2+nota3+nota4)/4
+
+    escreva(“O aluno: “ + aluno + “ obteve a media: “ + media)
+
+    } }
+
+- Matrizes e Vetores
+
+    Uma Matriz é uma coleção de variáveis de mesmo tipo, acessíveis com um único nome e armazenados contiguamente na memória. A individualização de cada variável de um vetor é feita através do uso de ‘índices’. Os vetores são matrizes de uma só dimensão. EX:
+
+    cadeia Vetor[5]; //declara um vetor de 5 posições cadeia Matriz[5][3]; // declara uma matriz de 5 linhas e 3 colunas
+
+    cadeia frutas[4]; frutas[0]= ”Maça” frutas[1]= “Pera” frutas[2]= ”Uva” frutas[3]= “Melão” escreva(frutas[2])
+
+    cadeia cesta[][] = {{“Maça”,”100”},{“Pera”,”200”},{“Melão”,”300”}
+
+    escreva(“Fruta: “ + cesta[0][0] + “Quantidade: “ + cesta[0][1])
+    
